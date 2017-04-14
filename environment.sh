@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Activating ROS..."
-source /opt/ros/kinetic/setup.bash
+source /opt/ros/kinetic/setup.sh
 echo "...done."
 
 echo "Setting up PYTHONPATH."
@@ -15,7 +15,7 @@ echo "Building machines file..."
 make -C  $DUCKIETOWN_ROOT
 echo "...done"
 echo "Activating development."
-source $DUCKIETOWN_ROOT/catkin_ws/devel/setup.bash
+source $DUCKIETOWN_ROOT/catkin_ws/devel/setup.sh
 
 # TODO: check that the time is >= 2015
 
