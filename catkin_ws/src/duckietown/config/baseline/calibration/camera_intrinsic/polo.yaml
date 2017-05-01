@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [275.5269540672449, 0.0, 309.39260850857505, 0.0, 280.6277673481705, 214.28718410147766,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: polo/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.23053767728754446, 0.03300161189187151, 0.004944868511071087, 0.00045988855491694344,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [191.70933532714844, 0.0, 312.4678185745106, 0.0, 0.0, 213.12008666992188,
+    201.82923731354276, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
